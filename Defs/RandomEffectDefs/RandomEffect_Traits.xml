@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    
+    <!--Wimp, Staggeringly Ugly, Pyromaniac -->
+    <StrangeEffectDef>
+        <defName>SP_TraitVeryBad</defName>
+        <randomGrade>VeryBad</randomGrade>
+        <weight>1</weight>
+    </StrangeEffectDef>
+
+    <!--Ugly, Annoying Voice, Creepy Breathing -->
+    <StrangeEffectDef>
+        <defName>SP_TraitBad</defName>
+        <randomGrade>Bad</randomGrade>
+        <weight>1</weight>
+    </StrangeEffectDef>
+
+    <!--Undergrounder, Teetotaler, Psychopath -->
+    <StrangeEffectDef>
+        <defName>SP_TraitNeutral</defName>
+        <randomGrade>Neutral</randomGrade>
+        <weight>1</weight>
+    </StrangeEffectDef>
+
+    <!--Pretty, Fast Walker, Kind -->
+    <StrangeEffectDef>
+        <defName>SP_TraitGood</defName>
+        <randomGrade>Good</randomGrade>
+        <weight>1</weight>
+    </StrangeEffectDef>
+
+    <!--Beautiful, Jogger, Tough -->
+    <StrangeEffectDef>
+        <defName>SP_TraitVeryGood</defName>
+        <randomGrade>VeryGood</randomGrade>
+        <weight>1</weight>
+    </StrangeEffectDef>
+
+    <StrangeEffectDef>
+        <defName>SP_RemoveTrait</defName>
+        <randomGrade>Neutral</randomGrade>
+        <weight>1</weight>
+    </StrangeEffectDef>
+
+</Defs>

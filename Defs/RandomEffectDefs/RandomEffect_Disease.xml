@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <StrangeEffectDef>
+        <defName>SP_Plague</defName>
+        <randomGrade>VeryBad</randomGrade>
+        <weight>1</weight>
+    </StrangeEffectDef>
+
+    <StrangeEffectDef>
+        <defName>SP_Malaria</defName>
+        <randomGrade>VeryBad</randomGrade>
+        <weight>1</weight>
+    </StrangeEffectDef>
+
+    <StrangeEffectDef>
+        <defName>SP_Flu</defName>
+        <randomGrade>Bad</randomGrade>
+        <weight>1</weight>
+    </StrangeEffectDef>
+
+    <StrangeEffectDef>
+        <defName>SP_MuscleParasites</defName>
+        <randomGrade>Bad</randomGrade>
+        <weight>1</weight>
+    </StrangeEffectDef>
+
+    <StrangeEffectDef>
+        <defName>SP_GutWorms</defName>
+        <randomGrade>Bad</randomGrade>
+        <weight>1</weight>
+    </StrangeEffectDef>
+
+    <StrangeEffectDef>
+        <defName>SP_FibrousMechanites</defName>
+        <randomGrade>Neutral</randomGrade>
+        <weight>1</weight>
+    </StrangeEffectDef>
+
+    <StrangeEffectDef>
+        <defName>SP_SensoryMechanites</defName>
+        <randomGrade>Neutral</randomGrade>
+        <weight>1</weight>
+    </StrangeEffectDef>
+
+    <StrangeEffectDef>
+        <defName>SP_Scaria</defName>
+        <randomGrade>VeryBad</randomGrade>
+        <weight>1</weight>
+        <canEffectAnimals>true</canEffectAnimals>
+        <canEffectHumanoids>false</canEffectHumanoids>
+    </StrangeEffectDef>
+
+</Defs>

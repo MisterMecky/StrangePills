@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="DrugPillBase">
+        <defName>SP_StrangePill</defName>
+        <label>strange pill</label>
+        <description>A small pill containing an unknown substance. Theres no way of telling what would happen if they were ingested.</description>
+        <graphicData>
+            <texPath>Things/Item/SP_StrangePill</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <rotatable>false</rotatable>
+        <statBases>
+            <MarketValue>30</MarketValue>
+            <Mass>0.01</Mass>
+          </statBases>
+        <techLevel>Ultra</techLevel>
+        <ingestible>
+            <drugCategory>Hard</drugCategory>
+            <outcomeDoers>
+              <li Class="IngestionOutcomeDoer_RandomEffect">
+                
+              </li>
+            </outcomeDoers>
+        </ingestible>
+        <tradeTags>
+            <li>ExoticMisc</li>
+        </tradeTags>
+        <allowedArchonexusCount>20</allowedArchonexusCount>
+
+    </ThingDef>
+
+
+</Defs>

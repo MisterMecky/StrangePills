@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <StrangeEffectDef>
+        <defName>SP_Smokeleaf</defName>
+        <randomGrade>Neutral</randomGrade>
+        <weight>1</weight>
+        <canEffectAnimals>true</canEffectAnimals>
+    </StrangeEffectDef>
+
+    <StrangeEffectDef>
+        <defName>SP_Wakeup</defName>
+        <randomGrade>Neutral</randomGrade>
+        <weight>1</weight>
+        <canEffectAnimals>true</canEffectAnimals>
+    </StrangeEffectDef>
+
+    <StrangeEffectDef>
+        <defName>SP_GoJuice</defName>
+        <randomGrade>Neutral</randomGrade>
+        <weight>1</weight>
+        <canEffectAnimals>true</canEffectAnimals>
+    </StrangeEffectDef>
+
+    <StrangeEffectDef>
+        <defName>SP_Alcohol</defName>
+        <randomGrade>Neutral</randomGrade>
+        <weight>1</weight>
+        <canEffectAnimals>true</canEffectAnimals>
+    </StrangeEffectDef>
+
+    <StrangeEffectDef>
+        <defName>SP_Psychite</defName>
+        <randomGrade>Neutral</randomGrade>
+        <weight>1</weight>
+        <canEffectAnimals>true</canEffectAnimals>
+    </StrangeEffectDef>
+
+    <StrangeEffectDef>
+        <defName>SP_Penoxaline?</defName>
+        <randomGrade>Good</randomGrade>
+        <weight>1</weight>
+    </StrangeEffectDef>
+
+    <StrangeEffectDef>
+        <defName>SP_Luciferium</defName>
+        <randomGrade>VeryBad</randomGrade>
+        <weight>0</weight>
+        <canEffectAnimals>true</canEffectAnimals>
+    </StrangeEffectDef>
+
+</Defs>
