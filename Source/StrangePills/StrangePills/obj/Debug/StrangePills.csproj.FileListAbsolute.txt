@@ -1,0 +1,4 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\StrangePills\Assemblies\StrangePills.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\StrangePills\Source\StrangePills\StrangePills\obj\Debug\StrangePills.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\StrangePills\Source\StrangePills\StrangePills\obj\Debug\StrangePills.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\StrangePills\Source\StrangePills\StrangePills\obj\Debug\StrangePills.dll

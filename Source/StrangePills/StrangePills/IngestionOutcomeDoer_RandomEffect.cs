@@ -13,9 +13,34 @@ namespace StrangePills
     {
         protected override void DoIngestionOutcomeSpecial(Pawn pawn, Thing ingested)
         {
-            throw new NotImplementedException();
+            RandomGrade grade;
+            Random rnd = new Random();
+            int randNum = rnd.Next(0, 101);
+            if (randNum <= 10)
+            {
+                grade = RandomGrade.VeryBad;
+            }
+            else if (randNum <= 30)
+            {
+                grade = RandomGrade.Bad;
+            }
+            else if (randNum <= 70)
+            {
+                grade = RandomGrade.Neutral;
+            }
+            else if (randNum <= 90)
+            {
+                grade = RandomGrade.Good;
+            }
+            else
+            { 
+                grade = RandomGrade.VeryGood; 
+            }
+            DefDatabase<StrangeEffectDef>.AllDefs.GetGradedList(out var list, def => def.GetGrade() == grade);
+            StrangeEffectDef strangeEffect = list.RandomElement();
+            strangeEffect.randomEffect.DoEffect(pawn);
         }
-
-        public StrangeEffectDef strangeEffect;
+        
+        //public StrangeEffectDef strangeEffect;
     }
 }

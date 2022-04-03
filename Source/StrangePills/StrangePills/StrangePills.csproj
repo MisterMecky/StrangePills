@@ -49,10 +49,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Utilities.cs" />
     <Compile Include="Defs\StrangeEffectDef.cs" />
     <Compile Include="Enums\Enum_RandomGrade.cs" />
     <Compile Include="IngestionOutcomeDoer_RandomEffect.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Effects\RandomEffect_AddHediff.cs" />
+    <Compile Include="Effects\RandomEffect.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

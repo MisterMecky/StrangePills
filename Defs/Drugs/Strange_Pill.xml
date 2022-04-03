@@ -16,13 +16,19 @@
           </statBases>
         <techLevel>Ultra</techLevel>
         <ingestible>
-            <drugCategory>Hard</drugCategory>
+            <drugCategory>Medical</drugCategory>
             <outcomeDoers>
-              <li Class="IngestionOutcomeDoer_RandomEffect">
+              <li Class="StrangePills.IngestionOutcomeDoer_RandomEffect">
                 
               </li>
             </outcomeDoers>
         </ingestible>
+        <comps>
+            <li Class="CompProperties_Drug">
+              <chemical>Strange Pill</chemical>
+              <listOrder>110</listOrder>
+            </li>
+          </comps>
         <tradeTags>
             <li>ExoticMisc</li>
         </tradeTags>
