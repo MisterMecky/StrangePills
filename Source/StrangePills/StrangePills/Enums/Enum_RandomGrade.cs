@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace StrangePills
 {
-    public enum RandomGrade : byte
+    public enum RandomGrade
     {
         VeryBad,
         Bad,

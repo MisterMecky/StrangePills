@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <StrangeEffectDef>
+    <StrangePills.StrangeEffectDef>
         <defName>SP_HealerMechSerum</defName>
         <randomGrade>VeryGood</randomGrade>
         <weight>1</weight>
         <canEffectAnimals>true</canEffectAnimals>
-    </StrangeEffectDef>
+    </StrangePills.StrangeEffectDef>
 
-    <StrangeEffectDef>
+    <StrangePills.StrangeEffectDef>
         <defName>SP_Amnesia</defName>
         <randomGrade>Neutral</randomGrade>
         <weight>1</weight>
-    </StrangeEffectDef>
+    </StrangePills.StrangeEffectDef>
 
 </Defs>

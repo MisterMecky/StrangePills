@@ -2,44 +2,44 @@
 <Defs>
     
     <!--Wimp, Staggeringly Ugly, Pyromaniac -->
-    <StrangeEffectDef>
+    <StrangePills.StrangeEffectDef>
         <defName>SP_TraitVeryBad</defName>
         <randomGrade>VeryBad</randomGrade>
         <weight>1</weight>
-    </StrangeEffectDef>
+    </StrangePills.StrangeEffectDef>
 
     <!--Ugly, Annoying Voice, Creepy Breathing -->
-    <StrangeEffectDef>
+    <StrangePills.StrangeEffectDef>
         <defName>SP_TraitBad</defName>
         <randomGrade>Bad</randomGrade>
         <weight>1</weight>
-    </StrangeEffectDef>
+    </StrangePills.StrangeEffectDef>
 
     <!--Undergrounder, Teetotaler, Psychopath -->
-    <StrangeEffectDef>
+    <StrangePills.StrangeEffectDef>
         <defName>SP_TraitNeutral</defName>
         <randomGrade>Neutral</randomGrade>
         <weight>1</weight>
-    </StrangeEffectDef>
+    </StrangePills.StrangeEffectDef>
 
     <!--Pretty, Fast Walker, Kind -->
-    <StrangeEffectDef>
+    <StrangePills.StrangeEffectDef>
         <defName>SP_TraitGood</defName>
         <randomGrade>Good</randomGrade>
         <weight>1</weight>
-    </StrangeEffectDef>
+    </StrangePills.StrangeEffectDef>
 
     <!--Beautiful, Jogger, Tough -->
-    <StrangeEffectDef>
+    <StrangePills.StrangeEffectDef>
         <defName>SP_TraitVeryGood</defName>
         <randomGrade>VeryGood</randomGrade>
         <weight>1</weight>
-    </StrangeEffectDef>
+    </StrangePills.StrangeEffectDef>
 
-    <StrangeEffectDef>
+    <StrangePills.StrangeEffectDef>
         <defName>SP_RemoveTrait</defName>
         <randomGrade>Neutral</randomGrade>
         <weight>1</weight>
-    </StrangeEffectDef>
+    </StrangePills.StrangeEffectDef>
 
 </Defs>

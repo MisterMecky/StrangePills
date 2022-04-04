@@ -6,7 +6,7 @@
         <label>strange pill</label>
         <description>A small pill containing an unknown substance. Theres no way of telling what would happen if they were ingested.</description>
         <graphicData>
-            <texPath>Things/Item/SP_StrangePill</texPath>
+            <texPath>Things/Drug/SP_StrangePill</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <rotatable>false</rotatable>
@@ -25,7 +25,6 @@
         </ingestible>
         <comps>
             <li Class="CompProperties_Drug">
-              <chemical>Strange Pill</chemical>
               <listOrder>110</listOrder>
             </li>
           </comps>

@@ -8,58 +8,43 @@ using Verse;
 
 namespace StrangePills
 {
-    [StaticConstructorOnStartup]
-    public static class MyMod
-    {
-        static MyMod() //our constructor
-        {
-            Log.Message("Hello World!"); //Outputs "Hello World!" to the dev console.
-        }
-    }
-
     public static class Utilities
     {
-        
-        public static void GetGradedList<T>(this IEnumerable<T> source, out List<T> list, Func<T, bool> func)
+        public static void GetWeightedGrade<T>(this List<StrangeEffectDef> source, out StrangeEffectDef effect)
         {
-            list = new List<T>();
-            foreach (var item in source)
+            RandomGrade grade;
+            Random rnd = new Random();
+            int randNum = rnd.Next(1, 11);
+            if (randNum == 1)
             {
-                if(func(item))
+                grade = RandomGrade.VeryBad;
+            }
+            else if (randNum <= 3)
+            {
+                grade = RandomGrade.Bad;
+            }
+            else if (randNum <= 7)
+            {
+                grade = RandomGrade.Neutral;
+            }
+            else if (randNum <= 9)
+            {
+                grade = RandomGrade.Good;
+            }
+            else
+            {
+                grade = RandomGrade.VeryGood;
+            }
+            List<StrangeEffectDef> list = new List<StrangeEffectDef>();
+            foreach(var item in source)
+            {
+                if (item.randomGrade == grade)
                 {
+                    //Log.Message(item.defName + "Added");
                     list.Add(item);
                 }
             }
+            effect = list.RandomElement();
         }
-
-        //public static void GetItemByWeight<T>(this IEnumerable<T> source)
-        //{
-        //    var def = source.RandomElement();
-            
-            
-        //}
-        
-        //public static RandomGrade GetWeightedGrade()
-        //{
-        //    Random rnd = new Random();
-        //    int randNum = rnd.Next(0, 101);
-        //    if(randNum <= 10)
-        //    {
-        //        return RandomGrade.VeryBad;
-        //    }
-        //    if (randNum <= 30)
-        //    {
-        //        return RandomGrade.Bad;
-        //    }
-        //    if (randNum <= 70)
-        //    {
-        //        return RandomGrade.Neutral;
-        //    }
-        //    if (randNum <= 90)
-        //    {
-        //        return RandomGrade.Good;
-        //    }
-        //    return RandomGrade.VeryGood;
-        //}
     }
 }

@@ -10,12 +10,10 @@ namespace StrangePills
 {
     public class StrangeEffectDef : Def
     {
-        public RandomGrade randomGrade = RandomGrade.VeryBad;
+        public RandomGrade randomGrade = RandomGrade.Neutral;
         public int weight;
         public bool canEffectAnimals = false;
         public bool canEffectHumanoids = true;
-        public RandomEffect randomEffect;
-
-        public RandomGrade GetGrade() { return randomGrade; }
+        public List<RandomEffect> randomEffects;
     }
 }

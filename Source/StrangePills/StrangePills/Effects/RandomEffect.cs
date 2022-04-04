@@ -8,11 +8,29 @@ using Verse;
 
 namespace StrangePills
 {
-    public class RandomEffect
+    public abstract class RandomEffect
     {
-        public virtual void DoEffect(Pawn pawn)
-        {
+        public abstract void DoEffect(Pawn pawn);
 
+        public void SuccessMessage()
+        {
+            throw new NotImplementedException();
+            //if (PawnUtility.ShouldSendNotificationAbout(user))
+            //{
+            //    Messages.Message("SkillNeurotrainerUsed".Translate(user.LabelShort, skill.LabelCap, level, level2, user.Named("USER")), user, MessageTypeDefOf.PositiveEvent, true);
+            //}
         }
+
+        public void FailMessage()
+        {
+            throw new NotImplementedException();
+            //if (PawnUtility.ShouldSendNotificationAbout(user))
+            //{
+            //    Messages.Message("SkillNeurotrainerUsed".Translate(user.LabelShort, skill.LabelCap, level, level2, user.Named("USER")), user, MessageTypeDefOf.PositiveEvent, true);
+            //}
+        }
+
+        public string successMessage = "No message set.";
+        public string failMessage = "The strange pill had no effect.";
     }
 }
