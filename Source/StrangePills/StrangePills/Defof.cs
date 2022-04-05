@@ -8,12 +8,9 @@ using Verse;
 
 namespace StrangePills
 {
-    public abstract class RandomEffect
+    [DefOf]
+    internal class Defof
     {
-        public abstract void DoEffect(Pawn pawn);
-
-        public abstract bool TryDoEffect(Pawn pawn);
-
-        
+        public static StrangeEffectDef Sp_NoEffect;
     }
 }

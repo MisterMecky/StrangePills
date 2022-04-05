@@ -17,7 +17,7 @@ namespace StrangePills
             
             List<StrangeEffectDef> list = DefDatabase<StrangeEffectDef>.AllDefs.ToList();
             StrangeEffectDef strangeEffect;
-            list.GetWeightedGrade<StrangeEffectDef>(out strangeEffect);
+            list.DoRandomEffect<StrangeEffectDef>(out strangeEffect);
             if (strangeEffect.randomEffects != null)
             {
                 //Log.Message(strangeEffect.defName + " count: " + strangeEffect.randomEffects.Count);
