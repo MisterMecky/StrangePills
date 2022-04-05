@@ -49,6 +49,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Effects\RandomEffect_Inspiration.cs" />
+    <Compile Include="Effects\RandomEffect_MentalState.cs" />
+    <Compile Include="Effects\RandomEffect_HealerSerum.cs" />
+    <Compile Include="Effects\RandomEffect_AddHediffDisease.cs" />
     <Compile Include="Utilities.cs" />
     <Compile Include="Defs\StrangeEffectDef.cs" />
     <Compile Include="Enums\Enum_RandomGrade.cs" />

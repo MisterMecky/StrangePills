@@ -40,7 +40,6 @@ namespace StrangePills
             {
                 if (item.randomGrade == grade)
                 {
-                    //Log.Message(item.defName + "Added");
                     list.Add(item);
                 }
             }

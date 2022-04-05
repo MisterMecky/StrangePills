@@ -4,7 +4,7 @@
     <StrangePills.StrangeEffectDef>
         <defName>SP_Smokeleaf</defName>
         <randomGrade>Neutral</randomGrade>
-        <weight>1</weight>
+        <weight>1.0</weight>
         <canEffectAnimals>true</canEffectAnimals>
         <randomEffects>
             <li Class="StrangePills.RandomEffect_AddHediff">
@@ -18,7 +18,7 @@
     <StrangePills.StrangeEffectDef>
         <defName>SP_Wakeup</defName>
         <randomGrade>Neutral</randomGrade>
-        <weight>1</weight>
+        <weight>1.0</weight>
         <canEffectAnimals>true</canEffectAnimals>
         <randomEffects>
             <li Class="StrangePills.RandomEffect_AddHediff">
@@ -32,7 +32,7 @@
     <StrangePills.StrangeEffectDef>
         <defName>SP_GoJuice</defName>
         <randomGrade>Neutral</randomGrade>
-        <weight>1</weight>
+        <weight>1.0</weight>
         <canEffectAnimals>true</canEffectAnimals>
         <randomEffects>
             <li Class="StrangePills.RandomEffect_AddHediff">
@@ -46,7 +46,7 @@
     <StrangePills.StrangeEffectDef>
         <defName>SP_Alcohol</defName>
         <randomGrade>Neutral</randomGrade>
-        <weight>1</weight>
+        <weight>1.0</weight>
         <canEffectAnimals>true</canEffectAnimals>
         <randomEffects>
             <li Class="StrangePills.RandomEffect_AddHediff">
@@ -60,7 +60,7 @@
     <StrangePills.StrangeEffectDef>
         <defName>SP_Yayo</defName>
         <randomGrade>Neutral</randomGrade>
-        <weight>1</weight>
+        <weight>1.0</weight>
         <canEffectAnimals>true</canEffectAnimals>
         <randomEffects>
             <li Class="StrangePills.RandomEffect_AddHediff">
@@ -74,13 +74,13 @@
     <StrangePills.StrangeEffectDef>
         <defName>SP_Penoxaline</defName>
         <randomGrade>Good</randomGrade>
-        <weight>1</weight>
+        <weight>1.0</weight>
     </StrangePills.StrangeEffectDef>
 
     <StrangePills.StrangeEffectDef>
         <defName>SP_Luciferium</defName>
         <randomGrade>VeryBad</randomGrade>
-        <weight>0</weight>
+        <weight>0.0</weight>
         <canEffectAnimals>true</canEffectAnimals>
     </StrangePills.StrangeEffectDef>
 

@@ -2,44 +2,44 @@
 <Defs>
     
     <!--Wimp, Staggeringly Ugly, Pyromaniac -->
-    <StrangePills.StrangeEffectDef>
+    <!-- <StrangePills.StrangeEffectDef>
         <defName>SP_TraitVeryBad</defName>
         <randomGrade>VeryBad</randomGrade>
-        <weight>1</weight>
-    </StrangePills.StrangeEffectDef>
+        <weight>1.0</weight>
+    </StrangePills.StrangeEffectDef> -->
 
     <!--Ugly, Annoying Voice, Creepy Breathing -->
-    <StrangePills.StrangeEffectDef>
+    <!-- <StrangePills.StrangeEffectDef>
         <defName>SP_TraitBad</defName>
         <randomGrade>Bad</randomGrade>
-        <weight>1</weight>
-    </StrangePills.StrangeEffectDef>
+        <weight>1.0</weight>
+    </StrangePills.StrangeEffectDef> -->
 
     <!--Undergrounder, Teetotaler, Psychopath -->
-    <StrangePills.StrangeEffectDef>
+    <!-- <StrangePills.StrangeEffectDef>
         <defName>SP_TraitNeutral</defName>
         <randomGrade>Neutral</randomGrade>
-        <weight>1</weight>
-    </StrangePills.StrangeEffectDef>
+        <weight>1.0</weight>
+    </StrangePills.StrangeEffectDef> -->
 
     <!--Pretty, Fast Walker, Kind -->
-    <StrangePills.StrangeEffectDef>
+    <!-- <StrangePills.StrangeEffectDef>
         <defName>SP_TraitGood</defName>
         <randomGrade>Good</randomGrade>
-        <weight>1</weight>
-    </StrangePills.StrangeEffectDef>
+        <weight>1.0</weight>
+    </StrangePills.StrangeEffectDef> -->
 
     <!--Beautiful, Jogger, Tough -->
-    <StrangePills.StrangeEffectDef>
+    <!-- <StrangePills.StrangeEffectDef>
         <defName>SP_TraitVeryGood</defName>
         <randomGrade>VeryGood</randomGrade>
-        <weight>1</weight>
-    </StrangePills.StrangeEffectDef>
+        <weight>1.0</weight>
+    </StrangePills.StrangeEffectDef> -->
 
-    <StrangePills.StrangeEffectDef>
+    <!-- <StrangePills.StrangeEffectDef>
         <defName>SP_RemoveTrait</defName>
         <randomGrade>Neutral</randomGrade>
-        <weight>1</weight>
-    </StrangePills.StrangeEffectDef>
+        <weight>1.0</weight>
+    </StrangePills.StrangeEffectDef> -->
 
 </Defs>

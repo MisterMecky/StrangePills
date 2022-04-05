@@ -11,7 +11,7 @@ namespace StrangePills
     public class StrangeEffectDef : Def
     {
         public RandomGrade randomGrade = RandomGrade.Neutral;
-        public int weight;
+        public float weight;
         public bool canEffectAnimals = false;
         public bool canEffectHumanoids = true;
         public List<RandomEffect> randomEffects;

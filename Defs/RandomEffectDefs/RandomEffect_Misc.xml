@@ -4,14 +4,17 @@
     <StrangePills.StrangeEffectDef>
         <defName>SP_HealerMechSerum</defName>
         <randomGrade>VeryGood</randomGrade>
-        <weight>1</weight>
+        <weight>1.0</weight>
         <canEffectAnimals>true</canEffectAnimals>
+        <randomEffects>
+            <li Class="StrangePills.RandomEffect_HealerSerum"/>
+        </randomEffects>
     </StrangePills.StrangeEffectDef>
 
     <StrangePills.StrangeEffectDef>
         <defName>SP_Amnesia</defName>
         <randomGrade>Neutral</randomGrade>
-        <weight>1</weight>
+        <weight>1.0</weight>
     </StrangePills.StrangeEffectDef>
 
 </Defs>
