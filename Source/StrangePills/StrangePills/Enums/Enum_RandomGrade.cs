@@ -12,8 +12,11 @@ namespace StrangePills
         Bad,
         Neutral,
         Good,
-        VeryGood
+        VeryGood,
+        Undefined
     }
+
+    
 
 
 }

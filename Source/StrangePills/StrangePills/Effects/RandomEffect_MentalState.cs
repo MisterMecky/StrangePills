@@ -10,10 +10,19 @@ namespace StrangePills
 {
     public class RandomEffect_MentalState : RandomEffect
     {
-        public override void DoEffect(Pawn pawn)
-        {
+  //      public override void DoEffect(Pawn pawn)
+  //      {
 			
-		}
+		//}
+
+        public override bool TryDoEffect(Pawn pawn)
+        {
+            if (pawn.mindState.mentalStateHandler.TryStartMentalState(mentalState))
+            {
+                return true;
+            }
+            return false;
+        }
 
         MentalStateDef mentalState;
     }

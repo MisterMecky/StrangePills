@@ -10,7 +10,7 @@ namespace StrangePills
 {
     public abstract class RandomEffect
     {
-        public abstract void DoEffect(Pawn pawn);
+        //public abstract void DoEffect(Pawn pawn);
 
         public abstract bool TryDoEffect(Pawn pawn);
 
