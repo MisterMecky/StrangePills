@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Defof.cs" />
+    <Compile Include="Effects\RandomEffect_Amnesia.cs" />
     <Compile Include="Effects\RandomEffect_Inspiration.cs" />
     <Compile Include="Effects\RandomEffect_MentalState.cs" />
     <Compile Include="Effects\RandomEffect_HealerSerum.cs" />

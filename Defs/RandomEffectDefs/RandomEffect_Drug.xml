@@ -75,6 +75,12 @@
         <defName>SP_Penoxaline</defName>
         <randomGrade>Good</randomGrade>
         <weight>1.0</weight>
+        <randomEffects>
+            <li Class="StrangePills.RandomEffect_AddHediff">
+                <hediffDef>PenoxycylineHigh</hediffDef>
+                <severity>1.0</severity>
+            </li>
+        </randomEffects>
     </StrangePills.StrangeEffectDef>
 
     <StrangePills.StrangeEffectDef>

@@ -18,9 +18,7 @@
         <ingestible>
             <drugCategory>Medical</drugCategory>
             <outcomeDoers>
-              <li Class="StrangePills.IngestionOutcomeDoer_RandomEffect">
-                
-              </li>
+              <li Class="StrangePills.IngestionOutcomeDoer_RandomEffect"/>
             </outcomeDoers>
         </ingestible>
         <comps>

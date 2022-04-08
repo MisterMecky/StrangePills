@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <StrangePills.StrangeEffectDef>
+        <defName>SP_Berserk</defName>
+        <randomGrade>VeryBad</randomGrade>
+        <weight>1.0</weight>
+        <randomEffects>
+            <li Class="StrangePills.RandomEffect_MentalState">
+                <mentalState>Berserk</mentalState>
+            </li>
+        </randomEffects>
+    </StrangePills.StrangeEffectDef>
+
+    <StrangePills.StrangeEffectDef>
+        <defName>SP_Wander_Psychotic</defName>
+        <randomGrade>Bad</randomGrade>
+        <weight>1.0</weight>
+        <randomEffects>
+            <li Class="StrangePills.RandomEffect_MentalState">
+                <mentalState>Wander_Psychotic</mentalState>
+            </li>
+        </randomEffects>
+    </StrangePills.StrangeEffectDef>
+
+    <StrangePills.StrangeEffectDef>
+        <defName>SP_Manhunter</defName>
+        <randomGrade>Bad</randomGrade>
+        <weight>1.0</weight>
+        <canEffectAnimals>true</canEffectAnimals>
+        <canEffectHumanoids>false</canEffectHumanoids>
+        <randomEffects>
+            <li Class="StrangePills.RandomEffect_MentalState">
+                <mentalState>Manhunter</mentalState>
+            </li>
+        </randomEffects>
+    </StrangePills.StrangeEffectDef>
+
+</Defs>
