@@ -10,16 +10,12 @@ namespace StrangePills
 {
     public class RandomEffect_AddHediffDisease : RandomEffect
     {
-		//public override void DoEffect(Pawn pawn)
-  //      {
-		//	Hediff hediff = HediffMaker.MakeHediff(this.hediffDef, pawn, null);
-		//	float num = this.hediffDef.initialSeverity;
-		//	hediff.Severity = num;
-		//	pawn.health.AddHediff(hediff, null, null, null);
-		//}
-
         public override bool TryDoEffect(Pawn pawn)
         {
+            if(canBlock && pawn.health.hediffSet.HasHediff(StrangePillsDefof.PenoxycylineHigh))
+            {
+                return false;
+            }
             Hediff hediff = HediffMaker.MakeHediff(this.hediffDef, pawn, null);
             float num = this.hediffDef.initialSeverity;
             hediff.Severity = num;
@@ -31,5 +27,6 @@ namespace StrangePills
         }
 
         public HediffDef hediffDef;
+        public bool canBlock = false;
     }
 }

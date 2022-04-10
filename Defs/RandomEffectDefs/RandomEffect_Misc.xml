@@ -17,4 +17,10 @@
         <weight>1.0</weight>
     </StrangePills.StrangeEffectDef>
 
+    <StrangePills.StrangeEffectDef>
+        <defName>SP_NoEffect</defName>
+        <randomGrade>Neutral</randomGrade>
+        <weight>0.0</weight>
+    </StrangePills.StrangeEffectDef>
+
 </Defs>

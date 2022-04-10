@@ -8,6 +8,7 @@
         <randomEffects>
             <li Class="StrangePills.RandomEffect_AddHediffDisease">
                 <hediffDef>Plague</hediffDef>
+                <canBlock>true</canBlock>
             </li>
         </randomEffects>
     </StrangePills.StrangeEffectDef>
@@ -19,6 +20,7 @@
         <randomEffects>
             <li Class="StrangePills.RandomEffect_AddHediffDisease">
                 <hediffDef>Malaria</hediffDef>
+                <canBlock>true</canBlock>
             </li>
         </randomEffects>
     </StrangePills.StrangeEffectDef>
@@ -84,6 +86,11 @@
         <weight>1.0</weight>
         <canEffectAnimals>true</canEffectAnimals>
         <canEffectHumanoids>false</canEffectHumanoids>
+        <randomEffects>
+            <li Class="StrangePills.RandomEffect_AddHediffDisease">
+                <hediffDef>Scaria</hediffDef>
+            </li>
+        </randomEffects>
     </StrangePills.StrangeEffectDef>
 
 </Defs>

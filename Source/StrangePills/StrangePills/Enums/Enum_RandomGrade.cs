@@ -15,8 +15,4 @@ namespace StrangePills
         VeryGood,
         Undefined
     }
-
-    
-
-
 }

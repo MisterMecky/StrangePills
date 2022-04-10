@@ -9,8 +9,9 @@ using Verse;
 namespace StrangePills
 {
     [DefOf]
-    internal class Defof
+    public static class StrangePillsDefof
     {
-        public static StrangeEffectDef Sp_NoEffect;
+        public static StrangeEffectDef SP_NoEffect;
+        public static HediffDef PenoxycylineHigh;
     }
 }

@@ -12,6 +12,10 @@
                 <severity>0.5</severity>
                 <toleranceChemical>Smokeleaf</toleranceChemical>
             </li>
+            <li Class="StrangePills.RandomEffect_AddHediff">
+                <hediffDef>SmokeleafTolerance</hediffDef>
+                <severity>0.030</severity>
+            </li>
         </randomEffects>
     </StrangePills.StrangeEffectDef>
 
@@ -54,6 +58,10 @@
                 <severity>0.15</severity>
                 <toleranceChemical>Alcohol</toleranceChemical>
             </li>
+            <li Class="StrangePills.RandomEffect_AddHediff">
+                <hediffDef>AlcoholTolerance</hediffDef>
+                <severity>0.016</severity>
+            </li>
         </randomEffects>
     </StrangePills.StrangeEffectDef>
 
@@ -67,6 +75,10 @@
                 <hediffDef>YayoHigh</hediffDef>
                 <severity>0.75</severity>
                 <toleranceChemical>Psychite</toleranceChemical>
+            </li>
+            <li Class="StrangePills.RandomEffect_AddHediff">
+                <hediffDef>PsychiteTolerance</hediffDef>
+                <severity>0.040</severity>
             </li>
         </randomEffects>
     </StrangePills.StrangeEffectDef>

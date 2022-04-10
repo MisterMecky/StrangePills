@@ -63,5 +63,8 @@
     <Compile Include="Effects\RandomEffect_AddHediff.cs" />
     <Compile Include="Effects\RandomEffect.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include=".editorconfig" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

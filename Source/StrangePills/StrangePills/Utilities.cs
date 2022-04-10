@@ -61,6 +61,7 @@ namespace StrangePills
                     {
                         if (source.Remove(strangeEffect))
                         {
+                            Log.Message("Removed " + strangeEffect.defName);
                             IterateRandomOutcome(source, pawn);
                         }
                         else
@@ -85,7 +86,7 @@ namespace StrangePills
             }
             else
             {
-                throw new NotImplementedException();
+                Log.Message("No effect found.");
             }
         }
 
@@ -117,68 +118,5 @@ namespace StrangePills
                 return RandomGrade.Undefined;
             }
         }
-
-        //public static RandomGrade GetRandomGrade()
-        //{
-        //    Random rnd = new Random();
-        //    int randNum = rnd.Next(1, 11);
-        //    if (randNum == 1)
-        //    {
-        //        return RandomGrade.VeryBad;
-        //    }
-        //    else if (randNum <= 3)
-        //    {
-        //        return RandomGrade.Bad;
-        //    }
-        //    else if (randNum <= 7)
-        //    {
-        //        return RandomGrade.Neutral;
-        //    }
-        //    else if (randNum <= 9)
-        //    {
-        //        return RandomGrade.Good;
-        //    }
-        //    else
-        //    {
-        //        return RandomGrade.VeryGood;
-        //    }
-        //}
-
-        //public static void DoRandomEffect<T>(this List<StrangeEffectDef> source, out StrangeEffectDef effect)
-        //{
-        //    RandomGrade grade;
-        //    Random rnd = new Random();
-        //    int randNum = rnd.Next(1, 11);
-        //    if (randNum == 1)
-        //    {
-        //        grade = RandomGrade.VeryBad;
-        //    }
-        //    else if (randNum <= 3)
-        //    {
-        //        grade = RandomGrade.Bad;
-        //    }
-        //    else if (randNum <= 7)
-        //    {
-        //        grade = RandomGrade.Neutral;
-        //    }
-        //    else if (randNum <= 9)
-        //    {
-        //        grade = RandomGrade.Good;
-        //    }
-        //    else
-        //    {
-        //        grade = RandomGrade.VeryGood;
-        //    }
-        //    List<StrangeEffectDef> list = new List<StrangeEffectDef>();
-        //    foreach(var item in source)
-        //    {
-        //        if (item.randomGrade == grade)
-        //        {
-        //            list.Add(item);
-        //        }
-        //    }
-        //    effect = list.RandomElement();
-        //}
-
     }
 }
