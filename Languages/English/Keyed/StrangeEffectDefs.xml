@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <SP_NoMessage>{PAWN_labelShort}. No Message set.</SP_NoMessage>
+    
+    <!-- Disease -->
+    <SP_Plague></SP_Plague>
+    <SP_Malaria></SP_Malaria>
+    <SP_Flu></SP_Flu>
+    <SP_MuscleParasites></SP_MuscleParasites>
+    <SP_GutWorms></SP_GutWorms>
+    <SP_FibrousMechanites></SP_FibrousMechanites>
+    <SP_SensoryMechanites></SP_SensoryMechanites>
+    <SP_Scaria></SP_Scaria>
+
+    <!-- Drug -->
+    <SP_Smokeleaf></SP_Smokeleaf>
+    <SP_Wakeup></SP_Wakeup>
+    <SP_GoJuice></SP_GoJuice>
+    <SP_Alcohol></SP_Alcohol>
+    <SP_Yayo></SP_Yayo>
+    <SP_Penoxaline></SP_Penoxaline>
+    <SP_Luciferium></SP_Luciferium>
+
+    <!-- Inspiration -->
+    <SP_Inspired_Creativity></SP_Inspired_Creativity>
+    <SP_Frenzy_Go></SP_Frenzy_Go>
+
+    <!-- MentalBreak -->
+    <SP_Berserk></SP_Berserk>
+    <SP_Wander_Psychotic></SP_Wander_Psychotic>
+    <SP_Manhunter></SP_Manhunter>
+
+    <!-- Misc -->
+    <SP_HealerMechSerum></SP_HealerMechSerum>
+    <SP_Amnesia></SP_Amnesia>
+    <SP_NoEffect></SP_NoEffect>
+
+</LanguageData>
