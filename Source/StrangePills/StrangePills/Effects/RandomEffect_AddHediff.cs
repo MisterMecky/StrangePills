@@ -12,6 +12,10 @@ namespace StrangePills
     {
 		public override bool TryDoEffect(Pawn pawn)
 		{
+			//if(pawn.health.hediffSet.HasHediff(hediffDef) && pawn.health.hediffSet.)
+   //             {
+			//	return false;
+   //             }
 			Hediff hediff = HediffMaker.MakeHediff(this.hediffDef, pawn, null);
 			float num;
 			if (this.severity > 0f)

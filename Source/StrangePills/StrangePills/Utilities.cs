@@ -21,13 +21,13 @@ namespace StrangePills
 
         public static void DoRandomOutcome(Pawn pawn)
         {
-            List<StrangeEffectDef> source = null;
+            List<StrangeEffectDef> source;
             RandomGrade grade = GetRandomGrade<RandomGrade>(gradeList);
             if (pawn.RaceProps.Humanlike)
             {
                 source = DefDatabase<StrangeEffectDef>.AllDefs.Where((StrangeEffectDef def) => def.canEffectHumanoids == true).ToList();
             }
-            else if (pawn.RaceProps.Animal)
+            else
             {
                 source = DefDatabase<StrangeEffectDef>.AllDefs.Where((StrangeEffectDef def) => def.canEffectAnimals == true).ToList();
             }

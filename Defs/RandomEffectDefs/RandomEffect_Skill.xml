@@ -5,7 +5,6 @@
         <defName>SP_Skill_Shooting</defName>
         <randomGrade>Good</randomGrade>
         <weight>0.4</weight>
-        <canEffectAnimals>true</canEffectAnimals>
         <randomEffects>
             <li Class="StrangePills.RandomEffect_AddSkill">
                 <skill>Shooting</skill>
@@ -18,7 +17,6 @@
         <defName>SP_Skill_Melee</defName>
         <randomGrade>Good</randomGrade>
         <weight>0.4</weight>
-        <canEffectAnimals>true</canEffectAnimals>
         <randomEffects>
             <li Class="StrangePills.RandomEffect_AddSkill">
                 <skill>Melee</skill>
@@ -31,7 +29,6 @@
         <defName>SP_Skill_Mining</defName>
         <randomGrade>Good</randomGrade>
         <weight>0.4</weight>
-        <canEffectAnimals>true</canEffectAnimals>
         <randomEffects>
             <li Class="StrangePills.RandomEffect_AddSkill">
                 <skill>Mining</skill>
@@ -44,7 +41,6 @@
         <defName>SP_Skill_Construction</defName>
         <randomGrade>Good</randomGrade>
         <weight>0.4</weight>
-        <canEffectAnimals>true</canEffectAnimals>
         <randomEffects>
             <li Class="StrangePills.RandomEffect_AddSkill">
                 <skill>Construction</skill>
@@ -57,7 +53,6 @@
         <defName>SP_Skill_Cooking</defName>
         <randomGrade>Good</randomGrade>
         <weight>0.4</weight>
-        <canEffectAnimals>true</canEffectAnimals>
         <randomEffects>
             <li Class="StrangePills.RandomEffect_AddSkill">
                 <skill>Cooking</skill>
@@ -67,10 +62,21 @@
     </StrangePills.StrangeEffectDef>
 
     <StrangePills.StrangeEffectDef>
+        <defName>SP_Skill_Plants</defName>
+        <randomGrade>Good</randomGrade>
+        <weight>0.4</weight>
+        <randomEffects>
+            <li Class="StrangePills.RandomEffect_AddSkill">
+                <skill>Plants</skill>
+                <amount>50000</amount>
+            </li>
+        </randomEffects>
+    </StrangePills.StrangeEffectDef>
+
+    <StrangePills.StrangeEffectDef>
         <defName>SP_Skill_Animals</defName>
         <randomGrade>Good</randomGrade>
         <weight>0.4</weight>
-        <canEffectAnimals>true</canEffectAnimals>
         <randomEffects>
             <li Class="StrangePills.RandomEffect_AddSkill">
                 <skill>Animals</skill>
@@ -83,7 +89,6 @@
         <defName>SP_Skill_Crafting</defName>
         <randomGrade>Good</randomGrade>
         <weight>0.4</weight>
-        <canEffectAnimals>true</canEffectAnimals>
         <randomEffects>
             <li Class="StrangePills.RandomEffect_AddSkill">
                 <skill>Crafting</skill>
@@ -93,13 +98,12 @@
     </StrangePills.StrangeEffectDef>
     
     <StrangePills.StrangeEffectDef>
-        <defName>SP_Skill_Art</defName>
+        <defName>SP_Skill_Artistic</defName>
         <randomGrade>Good</randomGrade>
         <weight>0.4</weight>
-        <canEffectAnimals>true</canEffectAnimals>
         <randomEffects>
             <li Class="StrangePills.RandomEffect_AddSkill">
-                <skill>Art</skill>
+                <skill>Artistic</skill>
                 <amount>50000</amount>
             </li>
         </randomEffects>
@@ -109,7 +113,6 @@
         <defName>SP_Skill_Social</defName>
         <randomGrade>Good</randomGrade>
         <weight>0.4</weight>
-        <canEffectAnimals>true</canEffectAnimals>
         <randomEffects>
             <li Class="StrangePills.RandomEffect_AddSkill">
                 <skill>Social</skill>
@@ -119,13 +122,12 @@
     </StrangePills.StrangeEffectDef>
 
     <StrangePills.StrangeEffectDef>
-        <defName>SP_Skill_Intellect</defName>
+        <defName>SP_Skill_Intellectual</defName>
         <randomGrade>Good</randomGrade>
         <weight>0.4</weight>
-        <canEffectAnimals>true</canEffectAnimals>
         <randomEffects>
             <li Class="StrangePills.RandomEffect_AddSkill">
-                <skill>Intellect</skill>
+                <skill>Intellectual</skill>
                 <amount>50000</amount>
             </li>
         </randomEffects>

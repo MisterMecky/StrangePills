@@ -14,6 +14,7 @@ namespace StrangePills
         {
             if(canBlock && pawn.health.hediffSet.HasHediff(StrangePillsDefof.PenoxycylineHigh))
             {
+                Log.Message("Blocked!");
                 return false;
             }
             Hediff hediff = HediffMaker.MakeHediff(this.hediffDef, pawn, null);

@@ -1,39 +1,53 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-    <SP_NoMessage>{PAWN_labelShort}. No Message set.</SP_NoMessage>
+    <SP_NoMessage>{0}. No Message set.</SP_NoMessage>
     
     <!-- Disease -->
-    <SP_Plague></SP_Plague>
-    <SP_Malaria></SP_Malaria>
-    <SP_Flu></SP_Flu>
-    <SP_MuscleParasites></SP_MuscleParasites>
-    <SP_GutWorms></SP_GutWorms>
-    <SP_FibrousMechanites></SP_FibrousMechanites>
-    <SP_SensoryMechanites></SP_SensoryMechanites>
-    <SP_Scaria></SP_Scaria>
+    <SP_Plague>{0} Plague</SP_Plague>
+    <SP_Malaria>{0} Malaria</SP_Malaria>
+    <SP_Flu>{0} Flu</SP_Flu>
+    <SP_MuscleParasites>{0} Muscle Parasites</SP_MuscleParasites>
+    <SP_GutWorms>{0} Gutworms</SP_GutWorms>
+    <SP_FibrousMechanites>{0} Fibrous Mechanites</SP_FibrousMechanites>
+    <SP_SensoryMechanites>{0} Sensory Mechanites</SP_SensoryMechanites>
+    <SP_Scaria>{0} Scaria</SP_Scaria>
 
     <!-- Drug -->
-    <SP_Smokeleaf></SP_Smokeleaf>
-    <SP_Wakeup></SP_Wakeup>
-    <SP_GoJuice></SP_GoJuice>
-    <SP_Alcohol></SP_Alcohol>
-    <SP_Yayo></SP_Yayo>
-    <SP_Penoxaline></SP_Penoxaline>
-    <SP_Luciferium></SP_Luciferium>
+    <SP_Smokeleaf>{0} Smokeleaf</SP_Smokeleaf>
+    <SP_Wakeup>{0} Wakeup</SP_Wakeup>
+    <SP_GoJuice>{0} GoJuice</SP_GoJuice>
+    <SP_Alcohol>{0} Alcohol</SP_Alcohol>
+    <SP_Yayo>{0} Yayo</SP_Yayo>
+    <SP_Penoxycyline>{0} Penoxycyline</SP_Penoxycyline>
+    <SP_Luciferium>{0} Luciferium</SP_Luciferium>
 
     <!-- Inspiration -->
-    <SP_Inspired_Creativity></SP_Inspired_Creativity>
-    <SP_Frenzy_Go></SP_Frenzy_Go>
+    <SP_Inspired_Creativity>{0} Inspired Creativity</SP_Inspired_Creativity>
+    <SP_Frenzy_Go>{0} Frenzy Go</SP_Frenzy_Go>
 
     <!-- MentalBreak -->
-    <SP_Berserk></SP_Berserk>
-    <SP_Wander_Psychotic></SP_Wander_Psychotic>
-    <SP_Manhunter></SP_Manhunter>
+    <SP_Berserk>{0} Berserk</SP_Berserk>
+    <SP_Wander_Psychotic>{0} Wander Psychotic</SP_Wander_Psychotic>
+    <SP_Manhunter>{0} Manhunter</SP_Manhunter>
 
     <!-- Misc -->
-    <SP_HealerMechSerum></SP_HealerMechSerum>
-    <SP_Amnesia></SP_Amnesia>
-    <SP_NoEffect></SP_NoEffect>
+    <SP_HealerMechSerum>{0} Healer Mech Serum</SP_HealerMechSerum>
+    <SP_Amnesia>{0} Amnesia</SP_Amnesia>
+    <SP_NoEffect>{0} No Effect</SP_NoEffect>
+
+    <!-- Skill -->
+    <SP_Skill_Shooting>{0} Shooting</SP_Skill_Shooting>
+    <SP_Skill_Melee>{0} Melee</SP_Skill_Melee>
+    <SP_Skill_Mining>{0} Mining</SP_Skill_Mining>
+    <SP_Skill_Construction>{0} Construction</SP_Skill_Construction>
+    <SP_Skill_Cooking>{0} Cooking</SP_Skill_Cooking>
+    <SP_Skill_Plants>{0} Plants</SP_Skill_Plants>
+    <SP_Skill_Animals>{0} Animals</SP_Skill_Animals>
+    <SP_Skill_Crafting>{0} Crafting</SP_Skill_Crafting>
+    <SP_Skill_Artistic>{0} Artistic</SP_Skill_Artistic>
+    <SP_Skill_Social>{0} Social</SP_Skill_Social>
+    <SP_Skill_Intellectual>{0} Intellectual</SP_Skill_Intellectual>
+
 
 </LanguageData>

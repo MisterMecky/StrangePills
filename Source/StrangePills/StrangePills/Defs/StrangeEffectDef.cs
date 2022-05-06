@@ -12,11 +12,10 @@ namespace StrangePills
     {
         public void SuccessMessage(Pawn pawn)
         {
-            Log.Message(successMessage);
-            Messages.Message(successMessage.Translate(pawn.LabelShort),pawn, MessageTypeDefOf.PositiveEvent, true);
+            Messages.Message(defName.Translate(pawn.LabelShort),pawn, MessageTypeDefOf.PositiveEvent, true);
         }
 
-        public string successMessage = "SP_NoMessage";
+        public string successMessage;
         public RandomGrade randomGrade = RandomGrade.Neutral;
         public float weight;
         public bool canEffectAnimals = false;

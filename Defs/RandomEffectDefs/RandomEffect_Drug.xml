@@ -84,7 +84,7 @@
     </StrangePills.StrangeEffectDef>
 
     <StrangePills.StrangeEffectDef>
-        <defName>SP_Penoxaline</defName>
+        <defName>SP_Penoxycyline</defName>
         <randomGrade>Good</randomGrade>
         <weight>1.0</weight>
         <randomEffects>
